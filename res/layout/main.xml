@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/hello"
+    android:textSize="30sp" />
+		<TextView
+	        android:id="@+id/editTextLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Enter seconds to turn on motor: " />
+		<EditText
+		    android:id="@+id/editText" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="10px"/>
+	    <TextView
+	        android:id="@+id/timerLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Timer: " />
+	
+	    <TextView
+	        android:id="@+id/timerValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="value" />
+	    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+	    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+</LinearLayout>
